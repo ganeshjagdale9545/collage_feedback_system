@@ -24,7 +24,7 @@ print("content-type: text/html\n")
 try:
  s = smtplib.SMTP('smtp.gmail.com', 587)
  s.starttls()
- s.login('scscoe.feedback.system@gmail.com','scscoe123')
+ s.login('feedback.system@gmail.com','pass')
  body=MIMEMultipart('alternative')
  sub='Subject:SCSCOE FEEDBACK SYSTEM\n'
  part1=MIMEText(sub,'plain')
