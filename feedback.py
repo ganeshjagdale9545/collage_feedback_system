@@ -31,7 +31,7 @@ try:
  part2=MIMEText(html,'html')
  body.attach(part1)
  body.attach(part2)
- s.sendmail('scscoe.feedback.system@gmail.com','jagdaleganesh9545@gmail.com','Subject:SCSCOE FEEDBACK SYSTEM\n'+body.as_string())
+ s.sendmail('feedback.system@gmail.com','jagdaleganesh9545@gmail.com','Subject:SCSCOE FEEDBACK SYSTEM\n'+body.as_string())
  s.quit()
  print("<style onload=\"hide()\"></style>")
  print("Feedback Sent!")
